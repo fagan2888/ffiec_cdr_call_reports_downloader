@@ -91,6 +91,16 @@ This means that it may violate the fine prints at the end of the [webpage in que
 > This is a protected U.S. Government web site. To intentionally cause damage to it or to any FFIEC or agency electronic facility or data through the knowing transmission of any program, information, code, or command is unlawful. This system and related equipment are subject to monitoring. Information regarding users may be obtained and disclosed to authorized personnel, including law enforcement authorities, for official purposes. Access to or use of this web site constitutes consent to these terms.
 
 
+## Usage
+
+From the command line (either cmd, powershell or bash):
+
+    python ./download_call_reports.py [chromedriver-location]
+
+The optional parameter `[chromedriver-location]` is the (full or absolute) path to the Chrome Driver executable on your machine.
+You need to specify this parameter if the Chrome Driver executable is not on your PATH.
+
+
 ## Resources
 
 These should be helpful in case you want to understand my code (I might have used some of these myself...)
