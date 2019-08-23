@@ -27,11 +27,7 @@ My program procedes in the following steps.
 
 First, it opens the webpage on a new, automated Chrome window. Pretty easy. You should notice, somewhere in my code I've put the following lines:
 
-    driverLocation = "C:/Users/apsql/.chromedriver_win32/chromedriver.exe"
-    browser = webdriver.Chrome(driverLocation)
 
-I did this because I did not want to put `chromedriver.exe` in my [PATH](https://en.wikipedia.org/wiki/PATH_(variable)).
-Therefore, I specified the location of the executable on my system when calling `webdriverChrome()`.
 
 Then, it looks for the set of options under the "_Available Products_" header.<sup>[1](#notreally)</sup> It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
 
