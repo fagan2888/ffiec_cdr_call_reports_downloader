@@ -35,22 +35,18 @@ Therefore, I specified the location of the executable on my system when calling 
 
 Then, it looks for the set of options under the "_Available Products_" header.<sup>[1](#notreally)</sup> It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
 
-<!-- ![ListBox1](./img/select1.png) -->
 <p align="center"><img src="./img/select1.png" alt="ListBox1"></p>
 
 It ensures that the [radio button](https://en.wikipedia.org/wiki/Radio_button) related to the TSV export option is selected under "_Available File Formats_".
 
-<!-- ![RadioButton](./img/tsvradio.png) -->
 <p align="center"><img src="./img/tsvradio.png" alt="RadioButton"></p>
 
 It retrieves _all_ available options in the drop-down menu under "_Reporting Period End Date_."
 
-<!-- ![ListDropDown](img/select2.png) -->
 <p align="center"><img src="./img/select2.png" alt="ListDropDown"></p>
 
 Finally, one by one, it selects each of the available dates and clicks on the Download button near the top of the page.
 
-<!-- ![DownloadButton](img/dload_button.png) -->
 <p align="center"><img src="./img/dload_button.png" alt="DownloadButton"></p>
 
 Note that this starts a series of _many_, potentially _big_ downloads.
