@@ -98,6 +98,12 @@ The optional parameter `[chromedriver-location]` is the (full or absolute) path 
 You need to specify this parameter if the Chrome Driver executable is not on your PATH.
 
 
+## Known issues
+
+The program does not close the automated browser window upon completion of the tasks.
+The major difficulty here is that Selenium [has (currently) no way of checking whether all downloads completed](https://stackoverflow.com/a/34338926).
+
+
 ## Resources
 
 These should be helpful in case you want to understand my code (I might have used some of these myself...)
@@ -105,3 +111,6 @@ These should be helpful in case you want to understand my code (I might have use
 - [Selenium: Documentation for Python bindings](https://selenium-python.readthedocs.io/)
 - [Stack Overflow: Listing select option values with Selenium and Python](https://stackoverflow.com/questions/18515692/listing-select-option-values-with-selenium-and-python)
 - [Stack Overflow: How to select a drop-down menu option value with Selenium (Python)](https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-option-value-with-selenium-python)
+- [Stack Overflow: python selenium, find out when a download has completed?](https://stackoverflow.com/questions/34338897/python-selenium-find-out-when-a-download-has-completed)
+- [Stack Overflow: Wait till download is complete in Python+Selenium+Firefox](https://stackoverflow.com/questions/47759491/wait-till-download-is-complete-in-pythonseleniumfirefox)
+- [Stack Overflow: How to close the browser after completing a download?](https://stackoverflow.com/questions/21217087/how-to-close-the-browser-after-completing-a-download/)
