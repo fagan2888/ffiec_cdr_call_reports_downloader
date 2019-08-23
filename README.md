@@ -21,6 +21,7 @@ As you click elements in the page, there is some Javascript code that runs in th
 Such Javascript code silently compiles a POST request that is sent to an AJAX server.
 And this is evil.
 The POST request is populated with a random (to me) string that makes the returned content a puzzle (to me) to solve.
+This meant (to me) that I could not create my own POST requests in Python or R, and I had to go the dirty way.
 
 My program procedes in the following steps.
 
