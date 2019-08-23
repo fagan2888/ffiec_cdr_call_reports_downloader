@@ -10,7 +10,7 @@ On top of this, I am an extremely lazy researcher that totally cannot afford to 
 Hence this program.
 
 
-## Main program steps
+## Main steps of the program
 
 This is a screenshot of the website that stood in my way.
 
