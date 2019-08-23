@@ -75,6 +75,22 @@ I ran
 and, together with Chrome and ChromeDriver, I was good to go.
 
 
+## Read this before using this program
+
+If you want to use the Python program in this repository, you should be aware of some things.
+
+First, check out my [license](./LICENSE).
+
+Second, you may want to use a webdriver for a browser that is not Chrome.
+In such case, check out the [instructions provided by Selenium (for Python)](https://selenium-python.readthedocs.io/installation.html#drivers).
+
+Third, executing my code "as is" may download a large amount of data and may get your (automated) browser stuck for some time.
+
+Finally, while this program automates a browser and executes instructions that a human may otherwise perform manually, this program has not been explicitly approved by the FFIEC.
+This means that it may violate the fine prints at the end of the [webpage in question](https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx) and that I report here verbatim.
+> This is a protected U.S. Government web site. To intentionally cause damage to it or to any FFIEC or agency electronic facility or data through the knowing transmission of any program, information, code, or command is unlawful. This system and related equipment are subject to monitoring. Information regarding users may be obtained and disclosed to authorized personnel, including law enforcement authorities, for official purposes. Access to or use of this web site constitutes consent to these terms.
+
+
 ## Resources
 
 These should be helpful in case you want to understand my code (I might have used some of these myself...)
