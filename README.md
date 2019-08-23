@@ -4,6 +4,8 @@ This Python CLI program automates a Google Chrome window to access the [FFIEC's 
 I need this data for research purposes.
 The FFIEC has a SOAP interface that can be used by registered users.
 However, it is limited in scope because it does not allow to download **all** call reports publicly available at once.
+It essentially just allows to replicate the actions that can be manually performed in a browser, loading their webpage.
+Not really useful.
 On top of this, I am an extremely lazy researcher that totally cannot afford to manually click on all options in a HTML drop-down menu that populates a AJAX request.
 Hence this program.
 
