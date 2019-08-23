@@ -50,6 +50,11 @@ Finally, one by one, it selects each of the available dates and clicks on the Do
 <!-- ![DownloadButton](img/dload_button.png) -->
 <p align="center"><img src="./img/dload_button.png" alt="DownloadButton"></p>
 
+Note that this starts a series of _many_, potentially _big_ downloads.
+Make sure you are not on a metered connection and you are not in a rush to power off/put to sleep your machine.
+
+The result is a bunch of .zip files in your Downloads directory (or whatever default location you have for your downloads in your browser).
+
 
 <sup><a name="#notreally">1</a>. It's not really a [header](https://www.w3schools.com/tags/tag_header.asp), it's a [`<div>`](https://www.w3schools.com/tags/tag_div.asp) with a [`<label>`](https://www.w3schools.com/tags/tag_label.asp) tag, which got the web-developer a place in hell.</sup>
 
