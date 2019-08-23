@@ -22,24 +22,30 @@ The POST request is populated with a random (to me) string that makes the return
 
 My program procedes in the following steps.
 
-1. It opens the webpage on a new, automated Chrome window. Pretty easy.
+First, it opens the webpage on a new, automated Chrome window. Pretty easy. You should notice, somewhere in my code I've put the following lines:
 
-2. It looks for the set of options under the "_Available Products_" header.<sup>[1](#notreally)</sup> It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
+    driverLocation = "C:/Users/apsql/.chromedriver_win32/chromedriver.exe"
+    browser = webdriver.Chrome(driverLocation)
+
+I did this because I did not want to put `chromedriver.exe` in my [PATH](https://en.wikipedia.org/wiki/PATH_(variable)).
+Therefore, I specified the location of the executable on my system when calling `webdriverChrome()`.
+
+Then, it looks for the set of options under the "_Available Products_" header.<sup>[1](#notreally)</sup> It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
 
 <!-- ![ListBox1](./img/select1.png) -->
 <p align="center"><img src="./img/select1.png" alt="ListBox1"></p>
 
-3. It ensures that the [radio button](https://en.wikipedia.org/wiki/Radio_button) related to the TSV export option is selected under "_Available File Formats_".
+It ensures that the [radio button](https://en.wikipedia.org/wiki/Radio_button) related to the TSV export option is selected under "_Available File Formats_".
 
 <!-- ![RadioButton](./img/tsvradio.png) -->
 <p align="center"><img src="./img/tsvradio.png" alt="RadioButton"></p>
 
-4. It retrieves _all_ available options in the drop-down menu under "_Reporting Period End Date_."
+It retrieves _all_ available options in the drop-down menu under "_Reporting Period End Date_."
 
 <!-- ![ListDropDown](img/select2.png) -->
 <p align="center"><img src="./img/select2.png" alt="ListDropDown"></p>
 
-5. One by one, it selects each of the available dates and clicks on the Download button near the top of the page
+Finally, one by one, it selects each of the available dates and clicks on the Download button near the top of the page.
 
 <!-- ![DownloadButton](img/dload_button.png) -->
 <p align="center"><img src="./img/dload_button.png" alt="DownloadButton"></p>
