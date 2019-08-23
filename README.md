@@ -86,9 +86,12 @@ In such case, check out the [instructions provided by Selenium (for Python)](htt
 
 Third, executing my code "as is" may download a large amount of data and may get your (automated) browser stuck for some time.
 
-Finally, while this program automates a browser and executes instructions that a human may otherwise perform manually, this program has not been explicitly approved by the FFIEC.
+Fourth, while this program automates a browser and executes instructions that a human may otherwise perform manually, this program has not been explicitly approved by the FFIEC.
 This means that it may violate the fine prints at the end of the [webpage in question](https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx) and that I report here verbatim.
 > This is a protected U.S. Government web site. To intentionally cause damage to it or to any FFIEC or agency electronic facility or data through the knowing transmission of any program, information, code, or command is unlawful. This system and related equipment are subject to monitoring. Information regarding users may be obtained and disclosed to authorized personnel, including law enforcement authorities, for official purposes. Access to or use of this web site constitutes consent to these terms.
+
+Finally, I am in no way affiliated to the FFIEC or the US Government.
+I am just a poor researcher in need of data.
 
 
 ## Usage
