@@ -27,9 +27,11 @@ My program procedes in the following steps.
 
 First, it opens the webpage on a new, automated Chrome window. Pretty easy. You should notice, somewhere in my code I've put the following lines:
 
+Then, it looks for the set of options under the "_Available Products_" header.<sup>*</sup>
+It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
 
+<sup>* It's not really a [header](https://www.w3schools.com/tags/tag_header.asp), it's a [`<div>`](https://www.w3schools.com/tags/tag_div.asp) with a [`<label>`](https://www.w3schools.com/tags/tag_label.asp) tag, which got the web-developer a place in hell.</sup>
 
-Then, it looks for the set of options under the "_Available Products_" header.<sup>[1](#notreally)</sup> It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
 
 <p align="center"><img src="./img/select1.png" alt="ListBox1"></p>
 
@@ -49,9 +51,6 @@ Note that this starts a series of _many_, potentially _big_ downloads.
 Make sure you are not on a metered connection and you are not in a rush to power off/put to sleep your machine.
 
 The result is a bunch of .zip files in your Downloads directory (or whatever default location you have for your downloads in your browser).
-
-
-<sup><a name="#notreally">1</a>. It's not really a [header](https://www.w3schools.com/tags/tag_header.asp), it's a [`<div>`](https://www.w3schools.com/tags/tag_div.asp) with a [`<label>`](https://www.w3schools.com/tags/tag_label.asp) tag, which got the web-developer a place in hell.</sup>
 
 
 ## Dependencies
