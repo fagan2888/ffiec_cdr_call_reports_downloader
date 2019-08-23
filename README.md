@@ -1,6 +1,6 @@
 # Real-bulk download Call Reports from FFIEC
 
-This Python program automates a Google Chrome window to access the [FFIEC's Central Data Repository public website](https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx).
+This Python CLI program automates a Google Chrome window to access the [FFIEC's Central Data Repository public website](https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx).
 I need this data for research purposes.
 The FFIEC has a SOAP interface that can be used by registered users.
 However, it is limited in scope because it does not allow to download **all** call reports publicly available at once.
