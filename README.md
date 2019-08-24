@@ -17,8 +17,8 @@ This is a screenshot of the website that stood in my way.
 ![Screenshot of landing page](./img/landing.png)
 
 It looks like a pretty easy static HTML webpage, but it is not.
-As you click elements in the page, there is some Javascript code that runs in the background.
-Such Javascript code silently compiles a POST request that is sent to an AJAX server.
+As you click elements in the page, there is some ASP.NET code that runs in the background.
+Such ASP.NET code silently compiles a POST request that is sent to an AJAX server.
 And this is evil.
 The POST request is populated with a random (to me) string that makes the returned content a puzzle (to me) to solve.
 This meant (to me) that I could not create my own POST requests in Python or R, and I had to go the dirty way.
