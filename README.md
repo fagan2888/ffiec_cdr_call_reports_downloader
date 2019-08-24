@@ -114,3 +114,8 @@ These should be helpful in case you want to understand my code (I might have use
 - [Stack Overflow: python selenium, find out when a download has completed?](https://stackoverflow.com/questions/34338897/python-selenium-find-out-when-a-download-has-completed)
 - [Stack Overflow: Wait till download is complete in Python+Selenium+Firefox](https://stackoverflow.com/questions/47759491/wait-till-download-is-complete-in-pythonseleniumfirefox)
 - [Stack Overflow: How to close the browser after completing a download?](https://stackoverflow.com/questions/21217087/how-to-close-the-browser-after-completing-a-download/)
+
+
+## Thanks
+
+Thanks to [@MarcoPasqualini](https://github.com/MarcoPasqualini/) for pointing out the wizardry behind an aspx webpage and the POST request being silently forged in the background.
