@@ -27,7 +27,7 @@ I had to go the dirty way.
 
 My program procedes in the following steps.
 
-First, it opens the webpage on a new, automated Chrome window. Pretty easy. You should notice, somewhere in my code I've put the following lines:
+First, it opens the webpage on a new, automated Chrome window. Pretty easy.
 
 Then, it looks for the set of options under the "_Available Products_" header.<sup>*</sup>
 It then emulates a selection (as triggered by a human click) on the option labelled "_Call Reports -- Single Period_."
